@@ -61,7 +61,7 @@ if __name__ == '__main__':
         site.append(''.join(res[2])) if res[2] else site.append('nan')
     del df[5]
     df[5] = phoneNumber
-    df[5] = email
-    df[5] = site
+    df[6] = email
+    df[7] = site
     df.drop_duplicates(keep=False, inplace=True)
     df.to_csv('newDataset.csv', encoding='utf-8', index=False, header=False)

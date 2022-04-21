@@ -1,3 +1,10 @@
+# You can see my CV at google drive
+# https://docs.google.com/document/d/1pF6fw9RJI5_-wb1XJ683halO2LIfi1h1l4E90eqXS5c/edit?usp=sharing
+# 
+# My Bitbucket repository
+# https://bitbucket.org/olegsuyarkov/
+
+
 import re
 import pandas as pd
 

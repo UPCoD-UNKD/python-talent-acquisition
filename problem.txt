@@ -1,0 +1,3 @@
+when 'git lfs clone'
+i see error  This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.
+and i can't download csv file

@@ -51,7 +51,7 @@ class GetAllData:
 
 
 def write():
-    headers = ["Phones", "Emails", "urls"]
+    headers = ["Phones", "Mails", "Sites"]
     with open("../final.csv", "w", newline="") as result_file:
         csvwriter = csv.writer(result_file)
         csvwriter.writerow(headers)

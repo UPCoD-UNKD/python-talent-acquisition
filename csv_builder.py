@@ -2,8 +2,6 @@
 
 class DataString:
     
-    patternPone = "(\+?\d+(\d*[\-\s\(\)\*]?\d*)*)"
-
     def __init__(self, full_str):
         patern = 'ГРОМАДСЬКА ОРГАНІЗАЦІЯ'
 

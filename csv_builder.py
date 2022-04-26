@@ -1,14 +1,5 @@
 ﻿import re
-import io
 
-def getStrForParser(str, patern):
-    start = str.find(patern) + len(patern)
-    return str[start:]
-
-
-
-
-    
 class DataString:
     
     patternPone = "(\+?\d+(\d*[\-\s\(\)\*]?\d*)*)"
